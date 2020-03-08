@@ -8,6 +8,7 @@ Vue + Vue Router + Quasar + i18n + Dexie + Vue Cordova Plugin. Perfect to start 
 # How to run
 
 npm install
+
 npm run serve
 
 # Description
