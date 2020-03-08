@@ -18,6 +18,12 @@ app-base is an app template, perfect to create Hibrid apps.
 	- Configuration page with language setting
 	- About page
 
+# Screenshots
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base1.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base2.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base3.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base4.png)
+
 ## Please check my apps some of that made using this template
 
 [Play Store](https://play.google.com/store/apps/developer?id=Huebra+Developer "Play Store")
