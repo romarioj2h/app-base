@@ -5,6 +5,11 @@ Vue + Vue Router + Quasar + i18n + Dexie + Vue Cordova Plugin. Perfect to start 
 
 [Play Store](https://play.google.com/store/apps/developer?id=Huebra+Developer "Play Store")
 
+# How to run
+
+npm install
+npm run serve
+
 # Description
 
 app-base is an app template, perfect to create Hibrid apps.
