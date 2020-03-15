@@ -49,7 +49,7 @@
             </q-card-section>
             <q-card-section>
                 <q-list separator>
-                    <q-item v-for="language in languages" v-bind:key="language.short" clickable v-ripple :active="language.short == selectedLanguage" @click="setLanguage(language)">
+                    <q-item v-for="language in languages" v-bind:key="language.short" clickable v-ripple :active="language.short == selectedLanguage" @click="setLanguage(language.short)">
                         <q-item-section avatar>
                             <q-icon name="language" />
                         </q-item-section>
@@ -58,7 +58,7 @@
                 </q-list>
             </q-card-section>
             <q-card-actions align="right" class="bg-white text-teal">
-                <q-btn flat label="OK" v-close-popup />
+                <q-btn flat label="OK" v-close-popup @click="setLanguage(selectedLanguage)"/>
             </q-card-actions>
         </q-card>
     </q-dialog>
@@ -110,9 +110,9 @@ export default {
     },
     methods: {
         setLanguage: function (language) {
-            this.$i18n.locale = language.short;
-            localStorage.selectedLanguage = language.short;
-            this.selectedLanguage = language.short;
+            this.$i18n.locale = language;
+            localStorage.selectedLanguage = language;
+            this.selectedLanguage = language;
         },
     }
 }
