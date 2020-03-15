@@ -1,6 +1,10 @@
 # Boot App (boot-app)
 
-A Quasar Framework app
+Quasar Stack + Vue + Vue Router + i18n + Dexie. Perfect to start an app
+
+## Please check my apps some of that made using this template
+
+[Play Store](https://play.google.com/store/apps/developer?id=Huebra+Developer "Play Store")
 
 ## Install the dependencies
 ```bash
@@ -16,11 +20,14 @@ quasar dev
 ```bash
 npm run lint
 ```
-
 ### Build the app for production
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+# Screenshots
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base1.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base2.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base3.png)
+![](https://raw.githubusercontent.com/romarioj2h/app-base/master/app-base4.png)
+
