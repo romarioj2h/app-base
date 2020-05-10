@@ -1,6 +1,18 @@
-# Boot App (boot-app)
+# App base (app-base)
 
-Quasar Stack + Vue + Vue Router + i18n + Dexie. Perfect to start an app
+Quasar Stack + i18n + Dexie. Perfect to start an app
+
+App base is a app template, that can be used for hybrid applications, PWA, SPA, electron applications.
+
+This template includes 3 pages:
+
+Home
+
+Settings: where you can change the language.
+
+About
+
+This application includes an language switcher that is displayed when the app a opened for the first time, you can also change the language in the settings section. Language config is stored in localstorage.
 
 ## Please check my apps some of that made using this template
 
@@ -14,11 +26,6 @@ npm install
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
-```
-
-### Lint the files
-```bash
-npm run lint
 ```
 ### Build the app for production
 ```bash
