@@ -14,6 +14,8 @@ About
 
 This application includes an language switcher that is displayed when the app a opened for the first time, you can also change the language in the settings section. Language config is stored in localstorage.
 
+Dexie is also added to this app, so you can easily create a table to store data for your application. You can add your db structure in the file src/db/db.js
+
 ## Please check my apps some of that made using this template
 
 [Play Store](https://play.google.com/store/apps/developer?id=Huebra+Developer "Play Store")
